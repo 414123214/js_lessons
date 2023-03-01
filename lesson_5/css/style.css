@@ -1,0 +1,52 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+body {
+	font-family: "Comfortaa", cursive;
+	font-size: 20px;
+	color: #323a42;
+	line-height: 1.6;
+}
+
+.wrapper {
+}
+.page {
+}
+.tasks {
+	padding-top: 50px;
+}
+.tasks__container {
+	max-width: 1330px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.tasks__title {
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.tasks__list {
+}
+.tasks__item {
+	display: block;
+}
+.tasks__item a{
+	display: block;
+	background-color: #d1d1d1;
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px solid #141414;
+}
+.tasks__item:not(:last-child) {
+	margin-bottom: 40px;
+}
+.task {
+}
+.task span {
+	font-size: 25px;
+	font-weight: 700;
+}
+.task__img {
+	max-width: 100%;
+	object-fit: cover;
+}

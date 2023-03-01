@@ -1,0 +1,11 @@
+table, tr, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+td {
+	padding: 15px;
+}
+table {
+	margin: 0 15px 15px 0;
+	display: inline-block;
+}

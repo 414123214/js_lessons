@@ -1,0 +1,35 @@
+@import url(reset.css);
+@import url(fonts.css);
+body {
+	font-family: 'Comfortaa', sans-serif;
+	color: #ece7ee;
+}
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	background: url(../img/07.jpg) 50% / cover no-repeat;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+h2 {
+	font-weight: 700;
+	font-size: 50px;
+	color: #d7d8d7;
+	text-shadow: 2px 2px 15px #e6c8bb;
+}
+.page {
+	padding: 50px 0;
+}
+* {
+	margin-bottom: 15px;
+}
+a {
+	display: block;
+	padding: 15px;
+	border-radius: 10px;
+	background: #bbcce6;
+	color: #000000;
+}
